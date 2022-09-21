@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*menu*/
+
+.menu{
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: blue;
+    padding: 15px;
+    
+    font-family: Raleway;
+}
+
+.menuDerecha{
+    float: right;
+    padding: 5px; 
+}
+
