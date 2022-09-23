@@ -16,7 +16,7 @@ body{
     font-family: Andromeda-Delta;
     text-align: left;
     font-size: 29px;
-    background-color: blue;
+    background-color: #00308F;
     padding: 10px;
 }
 
@@ -24,13 +24,13 @@ body{
     float: right;
 }
 
-a{
+.menu a{
     color: whitesmoke;
     text-decoration: none;
     padding: 10px;
 }
 
-a:hover{
+.menu a:hover{
     background-color: darkgray;
 }
 

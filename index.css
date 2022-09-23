@@ -10,6 +10,20 @@ body{
     src: url(./font/Andromeda-Delta.ttf);
 }
 
+.two {
+    padding-left: 50px;
+}
+.tres{
+    padding-left: 100px;
+}
+.four{
+    padding-left: 150px;
+}
+.five{
+    padding-left: 200px;
+}
+
+
 /*Home*/
 .main{
     background-image: url(./images/main12.jpg);
@@ -19,7 +33,6 @@ body{
     height: 500px;
     width: auto;
 }
-
 .mainP h1{
     padding: 150px 100px 100px 150px;
     margin: 0;
@@ -34,40 +47,81 @@ body{
 
 /*intro */
 .intro{
-    padding: 20px;
+    display: flex;
+    padding: 50px 20px 50px 20px;
 }
-
+.leftSide{
+    padding: 20px;
+    
+}
+.intro img{
+    padding: 10px;
+    border-radius: 10px;
+}
 .intro h1{
     font-family: Andromeda-Delta;
-    color: blue;
+    color: #00308F;
     font-size: xxx-large;
     font-weight: 900;
 }
-
 .intro p{
-    float: right;
+    color: #002D62;
+    background: darkgray;
+    color: #fff;;
+    padding: 20px;
 }
+.intro a {
+    text-decoration: none;   
+    color: blue;
+}
+
+
 
 
 /*ready */
 .Ready{
-    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: #00308F;
     color: whitesmoke;
-
-    padding: 50px;
+    padding: 50px 20px 50px 20px;
+}
+.Ready img{
+    grid-template-rows: repeat(2, 50%);
+    height: auto;
+    width: 600px;
+    border-radius: 5px;
+}
+#Start{
+    padding-top: 50px;
+}
+#Office{
+    padding-top: 60px;
+    padding-left: 100px;
 }
 
 
-/*ready*/
+/*weDo*/
 .weDo{
-    color: blue;
-    padding: 20px;
+    color: #00308F;
+    padding: 50px 20px 25px 20px;
+}
+.weDo h2{
+    color: #002D62;
 }
 
 
 /*different*/
 .different{
-    background-color: blue;
+    display: grid;
+    background-color: #00308F;
     color: whitesmoke;
-    padding: 20px;
+    padding: 50px 20px 25px 20px;
+}
+
+.different img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    width: 200px;
 }
