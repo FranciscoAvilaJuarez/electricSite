@@ -104,10 +104,21 @@ body{
 /*weDo*/
 .weDo{
     color: #00308F;
-    padding: 50px 20px 25px 20px;
+    padding: 50px 20px 25px 50px;
+}
+.queHacemos{
+    display: grid;
+}
+.weDo h1{
+    font-size: xxx-large;
 }
 .weDo h2{
     color: #002D62;
+}
+.weDo img{
+    height: 100px;
+    border-radius: 50%;
+    width: 100px;
 }
 
 
@@ -118,10 +129,13 @@ body{
     color: whitesmoke;
     padding: 50px 20px 25px 20px;
 }
+.different h1 {
+    font-size: xxx-large;
+    margin: 20px;
+}
 
 .different img{
-    max-width: 100%;
-    height: auto;
+    height: 100px;
     border-radius: 50%;
-    width: 200px;
+    width: 100px;
 }
