@@ -92,6 +92,9 @@ body{
     width: 600px;
     border-radius: 5px;
 }
+.Ready a:hover{
+    opacity: .5;
+}
 #Start{
     padding-top: 50px;
 }
@@ -108,9 +111,14 @@ body{
 }
 .queHacemos{
     display: grid;
+    grid-template-columns: repeat(3, 32%);
 }
 .weDo h1{
     font-size: xxx-large;
+    margin: 10px 10px 5px 10px;
+}
+.weDo p{
+    margin-bottom: 5px;
 }
 .weDo h2{
     color: #002D62;
@@ -120,6 +128,9 @@ body{
     border-radius: 50%;
     width: 100px;
 }
+.weDo a:hover{
+    opacity: .5;
+}
 
 
 /*different*/
@@ -128,6 +139,10 @@ body{
     background-color: #00308F;
     color: whitesmoke;
     padding: 50px 20px 25px 20px;
+    
+}
+.imagesDiff{
+    grid-template-columns: repeat(2, 50%);
 }
 .different h1 {
     font-size: xxx-large;
