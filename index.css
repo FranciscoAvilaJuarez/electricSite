@@ -1,7 +1,6 @@
 /*main*/
 body{
-    
-    margin: 0;
+    margin: 2px;
     padding: 0;
 }
 
@@ -108,10 +107,13 @@ body{
 .weDo{
     color: #00308F;
     padding: 50px 20px 25px 50px;
+    
 }
 .queHacemos{
     display: grid;
-    grid-template-columns: repeat(3, 32%);
+    grid-template-columns: repeat(3, auto);
+    
+    
 }
 .weDo h1{
     font-size: xxx-large;
@@ -119,15 +121,18 @@ body{
 }
 .weDo p{
     margin-bottom: 5px;
+    float: right;
 }
 .weDo h2{
     color: #002D62;
+    padding: 25px;
 }
 .weDo img{
-    height: 100px;
+    height: 150px;
     border-radius: 50%;
-    width: 100px;
+    width: 150px;
 }
+
 .weDo a:hover{
     opacity: .5;
 }
@@ -135,22 +140,22 @@ body{
 
 /*different*/
 .different{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     background-color: #00308F;
     color: whitesmoke;
     padding: 50px 20px 25px 20px;
     
 }
-.imagesDiff{
-    grid-template-columns: repeat(2, 50%);
-}
+
 .different h1 {
     font-size: xxx-large;
     margin: 20px;
 }
 
 .different img{
-    height: 100px;
+    height: 150px;
     border-radius: 50%;
-    width: 100px;
+    width: 150px;
+    padding: 25px;
 }
