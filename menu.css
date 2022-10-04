@@ -32,5 +32,6 @@
 
 .menu a:hover{
     background-color: darkgray;
+    text-decoration: none;
 }
 

@@ -4,31 +4,36 @@
     font-family: Andromeda-Delta;
   }
 
+
+
 @font-face {
     font-family: Andromeda-Delta;
     src: url(./font/Andromeda-Delta.ttf);
 }
-  
-  body {
-    background-image: url(./images/main3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 2px;
-  }
 
 .content img{
     width: 250px;
     height: auto;
   }
+
+
   
   /* The actual timeline (the vertical ruler) */
+  .fotoBackgroud{
+    display: flex;
+
+    background-image: url(./images/main3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+
+    background-color: #FFD700;
+    
+  }
+
   .timeline {
     position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
   }
   
   /* The actual timeline (the vertical ruler) */
