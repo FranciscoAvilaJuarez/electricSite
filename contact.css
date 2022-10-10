@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Andromeda-Delta;
+}
+
+@font-face {
+    font-family: Andromeda-Delta;
+    src: url(./font/Andromeda-Delta.ttf);
+}
+  
+  
+form{
+text-align: center;
+color: #FFD700;
+}
+
+.formulario{
+background-image: url(./images/main11.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+padding: 25px;
+
+}
+
+
+
+
+/*footer*/
+
+.container a{
+    
+    text-decoration: none;
+}
+.container li{
+    list-style-type: none;
+}
